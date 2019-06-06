@@ -6,6 +6,7 @@ connection = docker.DockerClient()
 
 blueprint = flask.Blueprint('docker', __name__)
 
+
 @blueprint.route('/docker', methods=[ 'GET' ])
 def get_docker():
 

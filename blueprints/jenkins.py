@@ -28,3 +28,8 @@ def start_build(job):
     connection.build_job(job)
 
     return flask.redirect('/jenkins')
+
+@blueprint.route('/jenkins/update/<string:job>', methods=[ 'GET'])
+def update_job(job):
+
+    return connection.get_job_config(job)
