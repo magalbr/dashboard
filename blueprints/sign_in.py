@@ -1,6 +1,7 @@
 import os
 import ldap3
 import flask
+import hashlib
 
 
 blueprint = flask.Blueprint('sign-in',__name__)
@@ -11,9 +12,7 @@ def get_sign_in():
     context = {
         
         'page': 'sign-in',
-        'route': {
-            'isPublic': True
-        }
+        'isPublic': True
     }
 
     return flask.render_template('sign-in.html', context=context)
@@ -46,13 +45,21 @@ def post_sign_in():
             response = connection.entries[0]
             saved_password = response.userPassword.value.decode()
 
+            password = hashlib.sha256(password.encode()).hexdigest()
             if password != saved_password:
+                # Essa linha é a linha esta incorreta
+                flask.flash('Senha incorreta', 'danger')
                 return flask.redirect('/sign-in')
         except:
             return flask.redirect('/sign-in')
         
+        flask.session['email'] = email
         return flask.redirect('/docker')
 
+@blueprint.route('/sign-out', methods=[ 'GET' ])
+def get_sign_out():
+    del flask.session['email']
+    return flask.redirect['sign-in']
 
         
       

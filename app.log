@@ -1,0 +1,10 @@
+[06/06/2019 22:02:15] [INFO] werkzeug [_log] [_internal.py, 122]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[06/06/2019 22:02:15] [INFO] werkzeug [_log] [_internal.py, 122]  * Restarting with stat
+[06/06/2019 22:02:18] [WARNING] werkzeug [_log] [_internal.py, 122]  * Debugger is active!
+[06/06/2019 22:02:18] [INFO] werkzeug [_log] [_internal.py, 122]  * Debugger PIN: 327-122-378
+[07/06/2019 20:53:00] [INFO] werkzeug [_log] [_internal.py, 122]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[07/06/2019 20:53:00] [INFO] werkzeug [_log] [_internal.py, 122]  * Restarting with stat
+[07/06/2019 20:53:35] [INFO] werkzeug [_log] [_internal.py, 122]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[07/06/2019 20:53:35] [INFO] werkzeug [_log] [_internal.py, 122]  * Restarting with stat
+[07/06/2019 20:53:36] [WARNING] werkzeug [_log] [_internal.py, 122]  * Debugger is active!
+[07/06/2019 20:53:36] [INFO] werkzeug [_log] [_internal.py, 122]  * Debugger PIN: 327-122-378
