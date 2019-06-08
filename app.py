@@ -38,7 +38,9 @@ app.register_blueprint(blueprints.sign_in.blueprint)
 
 app.register_blueprint(blueprints.sign_up.blueprint)
 
-
+@app.route('/', methods=[ 'GET '])
+def index():
+    return flask.redirect('/docker')
 
 if __name__ == '__main__':
 
