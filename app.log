@@ -8,3 +8,19 @@
 [07/06/2019 20:53:35] [INFO] werkzeug [_log] [_internal.py, 122]  * Restarting with stat
 [07/06/2019 20:53:36] [WARNING] werkzeug [_log] [_internal.py, 122]  * Debugger is active!
 [07/06/2019 20:53:36] [INFO] werkzeug [_log] [_internal.py, 122]  * Debugger PIN: 327-122-378
+[07/06/2019 20:55:23] [INFO] werkzeug [_log] [_internal.py, 122]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[07/06/2019 20:55:23] [INFO] werkzeug [_log] [_internal.py, 122]  * Restarting with stat
+[07/06/2019 20:55:25] [WARNING] werkzeug [_log] [_internal.py, 122]  * Debugger is active!
+[07/06/2019 20:55:25] [INFO] werkzeug [_log] [_internal.py, 122]  * Debugger PIN: 327-122-378
+[07/06/2019 20:56:20] [INFO] werkzeug [_log] [_internal.py, 122] 127.0.0.1 - - [07/Jun/2019 20:56:20] "GET /sign-in HTTP/1.1" 200 -
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/containers/json?trunc_cmd=0&limit=-1&all=1&size=0 HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/containers/1a9eeb3c2485c2f1cb8e7a4d113a8e8036ffa5039f5f2d09fb4e28ca3bf9c97d/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/containers/cb5c65b776a74993c823e400fb7ec6f7e3b132b07dbd31359f632883ae8f9875/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/containers/d235920a7a5790d0f831c35572dc2715b3f3a02ba36a76fc7cec12068ee853ed/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/containers/8e9e95c8010d5c03a6cb1218eb1df4ad9576247d69e894975c4afde4766093a8/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] root [get_docker] [docker.py, 26] gmagalhaes0604 acessou rota docker
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/images/6ee5a0cc5a131897294fe5db6f81df63edd0842b2c33c057e6402f7a5af90b7d/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/images/7369c626f7ac61e918b04b787bd4e773f36960a6a90a3a6e2f8a4b24d5963f1a/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/images/0fb47b43df1987480928787d3907f3be50941506ede82298b920df07011b8d94/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py, 393] http://localhost:None "GET /v1.35/images/0fb47b43df1987480928787d3907f3be50941506ede82298b920df07011b8d94/json HTTP/1.1" 200 None
+[07/06/2019 20:56:27] [INFO] werkzeug [_log] [_internal.py, 122] 127.0.0.1 - - [07/Jun/2019 20:56:27] "GET /docker HTTP/1.1" 200 -
