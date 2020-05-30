@@ -12,7 +12,7 @@ Conhecimentos necessários:
 - Python
 
 
-> Python é muito foda
+> Python é o presente e o futuro!
 
 ``` python
 for i in range(10):
