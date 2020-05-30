@@ -16,5 +16,5 @@ Conhecimentos necessários:
 
 ``` python
 for i in range(10):
-  print('python é soda')
+  print('Practicing to be a Devops Master')
 ```
